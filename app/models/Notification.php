@@ -30,6 +30,20 @@ class Notification extends Model
     }
 
     /**
+     * Mengambil seluruh data notifikasi dari tabel yang aktif.
+     *
+     * @return array Data notifikasi dalam bentuk array asosiatif.
+     */
+    public static function allActive()
+    {
+        $instance = new self();
+        $sql = "SELECT * FROM " . $instance->table . " WHERE status = 'active'";
+        $stmt = $instance->db->prepare($sql);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    /**
      * Mengambil satu notifikasi berdasarkan ID.
      *
      * @param int $id

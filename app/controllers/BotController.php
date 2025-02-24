@@ -53,7 +53,7 @@ class BotController extends Controller
     {
         header('Content-Type: application/json');
 
-        $notifications = Notification::all();
+        $notifications = Notification::allActive();
         $finalFiltered = [];
 
         foreach ($notifications as $notification) {

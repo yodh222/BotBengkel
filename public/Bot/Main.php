@@ -62,7 +62,7 @@ function processMessage($noPolisi, $namaPelanggan, $message)
 function newestTransaction()
 {
     logActivity("Starting retrieval of latest transactions...");
-    $notifications = Notification::all();
+    $notifications = Notification::allActive();
     $finalFiltered = [];
 
     foreach ($notifications as $notification) {
