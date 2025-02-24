@@ -1,0 +1,148 @@
+[2025-02-23 07:37:51] Starting send() function...
+[2025-02-23 07:37:51] Starting retrieval of latest transactions...
+[2025-02-23 07:37:51] Processing notification 'Pengingat Pelanggan' with interval 30 days.
+[2025-02-23 07:37:51] Retrieved 3 transactions for notification 'Pengingat Pelanggan'.
+[2025-02-23 07:37:51] After deduplication, 1 unique transactions remain.
+[2025-02-23 07:37:51] Retrieved bot token and final filtered transactions: 1
+[2025-02-23 07:37:51] Fetching message templates...
+[2025-02-23 07:37:51] Retrieved 1 message templates.
+[2025-02-23 07:37:51] Total transactions to process: 1
+[2025-02-23 07:37:51] Processing transaction NoFaktur 'FK-00001' for customer 'Yodha Agasthya'.
+[2025-02-23 07:37:51] Processing message for customer 'Yodha Agasthya' with vehicle 'AD5461NK'...
+[2025-02-23 07:37:51] Processed message: Halo Bpk/Ibu Yodha Agasthya,
+Kami dari AutoCars Bengkel ingin mengingatkan bahwa kendaraan Anda dengan nomor polisi AD5461NK sudah waktunya melakukan servis berkala pada bulan 23 February 2025.
+
+Detail Bengkel:
+Alamat: Jl. Soekarno Hatta, Tidar Sel., Kec. Magelang Sel., Kota Magelang, Jawa Tengah
+Whatsapp: wa.me/628561180005
+Maps: https://www.google.com/maps/place/BENGKEL+MOBIL+R+Auto+Car+MAGELANG/data=!4m2!3m1!1s0x0:0x52165a2039bf1f63?sa=X&ved=1t:2428&ictx=111
+
+Untuk kenyamanan Anda, silakan hubungi kami melalui nomor di atas atau langsung kunjungi bengkel kami untuk melakukan servis.
+
+Jam Operasional:
+Senin - Minggu: 08.00 - 16.00
+
+Kami siap membantu menjaga kendaraan Anda tetap dalam kondisi terbaik.
+Salam hangat,
+AutoCars Bengkel
+[2025-02-23 07:37:51] Sending message for NoFaktur 'FK-00001' to nomor HP '082133753551': Halo Bpk/Ibu Yodha Agasthya,
+Kami dari AutoCars Bengkel ingin mengingatkan bahwa kendaraan Anda dengan nomor polisi AD5461NK sudah waktunya melakukan servis berkala pada bulan 23 February 2025.
+
+Detail Bengkel:
+Alamat: Jl. Soekarno Hatta, Tidar Sel., Kec. Magelang Sel., Kota Magelang, Jawa Tengah
+Whatsapp: wa.me/628561180005
+Maps: https://www.google.com/maps/place/BENGKEL+MOBIL+R+Auto+Car+MAGELANG/data=!4m2!3m1!1s0x0:0x52165a2039bf1f63?sa=X&ved=1t:2428&ictx=111
+
+Untuk kenyamanan Anda, silakan hubungi kami melalui nomor di atas atau langsung kunjungi bengkel kami untuk melakukan servis.
+
+Jam Operasional:
+Senin - Minggu: 08.00 - 16.00
+
+Kami siap membantu menjaga kendaraan Anda tetap dalam kondisi terbaik.
+Salam hangat,
+AutoCars Bengkel
+[2025-02-23 07:37:53] Storing log for NoFaktur 'FK-00001' with status 'sent'.
+[2025-02-23 07:37:53] Database log result: Success. NoFaktur: FK-00001, Nomor HP: 082133753551, Pesan: Pengingat Pelanggan, Status: sent, Pesan Error: None
+[2025-02-23 07:37:53] Message sent successfully for NoFaktur 'FK-00001'.
+[2025-02-23 07:50:02] Starting send() function...
+[2025-02-23 07:50:02] Starting retrieval of latest transactions...
+[2025-02-23 07:50:02] Processing notification 'Pengingat Pelanggan' with interval 30 days.
+[2025-02-23 07:50:02] Retrieved 3 transactions for notification 'Pengingat Pelanggan'.
+[2025-02-23 07:50:02] After deduplication, 1 unique transactions remain.
+[2025-02-23 07:50:02] Retrieved bot token and final filtered transactions: 1
+[2025-02-23 07:50:02] Fetching message templates...
+[2025-02-23 07:50:02] Retrieved 1 message templates.
+[2025-02-23 07:50:02] Total transactions to process: 1
+[2025-02-23 07:50:02] Processing transaction NoFaktur 'FK-00001' for customer 'Yodha Agasthya'.
+[2025-02-23 07:50:02] Processing message for customer 'Yodha Agasthya' with vehicle 'AD5461NK'...
+[2025-02-23 07:50:02] Processed message: Halo Bpk/Ibu Yodha Agasthya,
+Kami dari AutoCars Bengkel ingin mengingatkan bahwa kendaraan Anda dengan nomor polisi AD5461NK sudah waktunya melakukan servis berkala pada bulan 23 February 2025.
+
+Detail Bengkel:
+Alamat: Jl. Soekarno Hatta, Tidar Sel., Kec. Magelang Sel., Kota Magelang, Jawa Tengah
+Whatsapp: wa.me/628561180005
+Maps: https://www.google.com/maps/place/BENGKEL+MOBIL+R+Auto+Car+MAGELANG/data=!4m2!3m1!1s0x0:0x52165a2039bf1f63?sa=X&ved=1t:2428&ictx=111
+
+Untuk kenyamanan Anda, silakan hubungi kami melalui nomor di atas atau langsung kunjungi bengkel kami untuk melakukan servis.
+
+Jam Operasional:
+Senin - Minggu: 08.00 - 16.00
+
+Kami siap membantu menjaga kendaraan Anda tetap dalam kondisi terbaik.
+Salam hangat,
+AutoCars Bengkel
+[2025-02-23 07:50:02] Sending message for NoFaktur 'FK-00001' to nomor HP '082133753551': Halo Bpk/Ibu Yodha Agasthya,
+Kami dari AutoCars Bengkel ingin mengingatkan bahwa kendaraan Anda dengan nomor polisi AD5461NK sudah waktunya melakukan servis berkala pada bulan 23 February 2025.
+
+Detail Bengkel:
+Alamat: Jl. Soekarno Hatta, Tidar Sel., Kec. Magelang Sel., Kota Magelang, Jawa Tengah
+Whatsapp: wa.me/628561180005
+Maps: https://www.google.com/maps/place/BENGKEL+MOBIL+R+Auto+Car+MAGELANG/data=!4m2!3m1!1s0x0:0x52165a2039bf1f63?sa=X&ved=1t:2428&ictx=111
+
+Untuk kenyamanan Anda, silakan hubungi kami melalui nomor di atas atau langsung kunjungi bengkel kami untuk melakukan servis.
+
+Jam Operasional:
+Senin - Minggu: 08.00 - 16.00
+
+Kami siap membantu menjaga kendaraan Anda tetap dalam kondisi terbaik.
+Salam hangat,
+AutoCars Bengkel
+[2025-02-23 07:50:04] Storing log for NoFaktur 'FK-00001' with status 'sent'.
+[2025-02-23 07:50:04] Database log result: Success. NoFaktur: FK-00001, Nomor HP: 082133753551, Pesan: Pengingat Pelanggan, Status: sent, Pesan Error: None
+[2025-02-23 07:50:04] Message sent successfully for NoFaktur 'FK-00001'.
+[2025-02-23 10:13:55] Starting send() function...
+[2025-02-23 10:13:55] Starting retrieval of latest transactions...
+[2025-02-23 10:13:55] Processing notification 'Pengingat Pelanggan' with interval 30 days.
+[2025-02-23 10:13:55] Retrieved 3 transactions for notification 'Pengingat Pelanggan'.
+[2025-02-23 10:13:55] After deduplication, 1 unique transactions remain.
+[2025-02-23 10:13:55] Retrieved bot token and final filtered transactions: 1
+[2025-02-23 10:13:55] Fetching message templates...
+[2025-02-23 10:13:55] Retrieved 1 message templates.
+[2025-02-23 10:13:55] Total transactions to process: 1
+[2025-02-23 10:13:55] Processing transaction NoFaktur 'FK-00001' for customer 'Yodha Agasthya'.
+[2025-02-23 10:13:55] Processing message for customer 'Yodha Agasthya' with vehicle 'AD5461NK'...
+[2025-02-23 10:13:55] Processed message: Halo Bpk/Ibu Yodha Agasthya,
+Kami dari AutoCars Bengkel ingin mengingatkan bahwa kendaraan Anda dengan nomor polisi AD5461NK sudah waktunya melakukan servis berkala pada bulan 23 February 2025.
+
+Detail Bengkel:
+Alamat: Jl. Soekarno Hatta, Tidar Sel., Kec. Magelang Sel., Kota Magelang, Jawa Tengah
+Whatsapp: wa.me/628561180005
+Maps: https://www.google.com/maps/place/BENGKEL+MOBIL+R+Auto+Car+MAGELANG/data=!4m2!3m1!1s0x0:0x52165a2039bf1f63?sa=X&ved=1t:2428&ictx=111
+
+Untuk kenyamanan Anda, silakan hubungi kami melalui nomor di atas atau langsung kunjungi bengkel kami untuk melakukan servis.
+
+Jam Operasional:
+Senin - Minggu: 08.00 - 16.00
+
+Kami siap membantu menjaga kendaraan Anda tetap dalam kondisi terbaik.
+Salam hangat,
+AutoCars Bengkel
+[2025-02-23 10:13:55] Sending message for NoFaktur 'FK-00001' to nomor HP '082133753551': Halo Bpk/Ibu Yodha Agasthya,
+Kami dari AutoCars Bengkel ingin mengingatkan bahwa kendaraan Anda dengan nomor polisi AD5461NK sudah waktunya melakukan servis berkala pada bulan 23 February 2025.
+
+Detail Bengkel:
+Alamat: Jl. Soekarno Hatta, Tidar Sel., Kec. Magelang Sel., Kota Magelang, Jawa Tengah
+Whatsapp: wa.me/628561180005
+Maps: https://www.google.com/maps/place/BENGKEL+MOBIL+R+Auto+Car+MAGELANG/data=!4m2!3m1!1s0x0:0x52165a2039bf1f63?sa=X&ved=1t:2428&ictx=111
+
+Untuk kenyamanan Anda, silakan hubungi kami melalui nomor di atas atau langsung kunjungi bengkel kami untuk melakukan servis.
+
+Jam Operasional:
+Senin - Minggu: 08.00 - 16.00
+
+Kami siap membantu menjaga kendaraan Anda tetap dalam kondisi terbaik.
+Salam hangat,
+AutoCars Bengkel
+[2025-02-23 10:13:57] Storing log for NoFaktur 'FK-00001' with status 'sent'.
+[2025-02-23 10:13:57] Database log result: Success. NoFaktur: FK-00001, Nomor HP: 082133753551, Pesan: Pengingat Pelanggan, Status: sent, Pesan Error: None
+[2025-02-23 10:13:57] Message sent successfully for NoFaktur 'FK-00001'.
+[2025-02-24 07:50:03] Starting send() function...
+[2025-02-24 07:50:03] Starting retrieval of latest transactions...
+[2025-02-24 07:50:03] Processing notification 'Pengingat Pelanggan' with interval 30 days.
+[2025-02-24 07:50:03] Retrieved 0 transactions for notification 'Pengingat Pelanggan'.
+[2025-02-24 07:50:03] After deduplication, 0 unique transactions remain.
+[2025-02-24 07:50:03] Retrieved bot token and final filtered transactions: 0
+[2025-02-24 07:50:03] Fetching message templates...
+[2025-02-24 07:50:03] Retrieved 1 message templates.
+[2025-02-24 07:50:03] Total transactions to process: 0
+[2025-02-24 07:50:03] No transactions available.
