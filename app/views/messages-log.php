@@ -35,64 +35,65 @@ $content = ob_get_clean();
 ob_start();
 ?>
 <script>
-$(document).ready(function() {
-    const table = $('#logMessageTable').DataTable({
-        processing: true,
-        serverSide: true,
-        ajax: '/api/log-messages', // URL endpoint untuk mengambil data log messages
-        columns: [{
-                data: 'id'
+    $(document).ready(function() {
+        const table = $('#logMessageTable').DataTable({
+            ajax: {
+                url: '/api/log-messages',
+                dataSrc: 'data' // Sesuaikan dengan struktur response API Anda. Misalnya, jika data berada di response.data, gunakan 'data'
             },
-            {
-                data: 'nama_pelanggan'
-            },
-            {
-                data: 'pesan'
-            },
-            {
-                data: 'nomor_hp'
-            },
-            {
-                data: 'status'
-            },
-            {
-                data: 'pesan_error'
-            },
-            {
-                data: 'action',
-                name: 'action',
-                orderable: false,
-                searchable: false,
-                render: function(data, type, row) {
-                    if (row.status === 'failed') {
-                        return `<button class="btn btn-primary btn-sm resend-btn" data-id="${row.id}">Resend</button>`;
+            columns: [{
+                    data: 'id'
+                },
+                {
+                    data: 'nama_pelanggan'
+                },
+                {
+                    data: 'pesan'
+                },
+                {
+                    data: 'nomor_hp'
+                },
+                {
+                    data: 'status'
+                },
+                {
+                    data: 'pesan_error'
+                },
+                {
+                    data: null,
+                    orderable: false,
+                    searchable: false,
+                    render: function(data, type, row) {
+                        if (row.status === 'failed') {
+                            return `<button class="btn btn-primary btn-sm resend-btn" data-id="${row.id}">Resend</button>`;
+                        }
+                        return `<span class="badge bg-success">Sent</span>`;
                     }
-                    return `<span class="badge bg-success">Sent</span>`;
                 }
-            }
-        ]
-    });
+            ]
+        });
 
-    // Fungsi Resend
-    $('#logMessageTable').on('click', '.resend-btn', function() {
-        const id = $(this).data('id');
 
-        $.ajax({
-            url: `/api/log-messages/${id}/resend`,
-            type: 'POST',
-            success: function(response) {
-                console.log(response);
-                table.ajax.reload();
-            },
-            error: function(xhr, status, error) {
-                const errorMessage =
-                    `Error: ${xhr.status} ${xhr.statusText}\nResponse: ${xhr.responseText}`;
-                alert(errorMessage);
-                console.log(errorMessage);
-            }
+        // Fungsi Resend
+        $('#logMessageTable').on('click', '.resend-btn', function() {
+            const id = $(this).data('id');
+
+            $.ajax({
+                url: `/api/log-messages/${id}/resend`,
+                type: 'POST',
+                success: function(response) {
+                    console.log(response);
+                    table.ajax.reload();
+                },
+                error: function(xhr, status, error) {
+                    const errorMessage =
+                        `Error: ${xhr.status} ${xhr.statusText}\nResponse: ${xhr.responseText}`;
+                    alert(errorMessage);
+                    console.log(errorMessage);
+                }
+            });
         });
     });
-});
 </script>
 <?php
 // Simpan skrip ke variabel $scripts
